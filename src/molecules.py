@@ -141,3 +141,4 @@ def build_beh2(angle=180.0):
     qubit_op = mapper.map(second_q_op)
 
     return qubit_op, problem
+# BeH2 bond angle scan from 90 to 180 degrees
